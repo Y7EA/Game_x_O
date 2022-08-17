@@ -1,0 +1,84 @@
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="" />
+            <h1>Welcome To The Game</h1>
+        </div>
+        <form class="board">
+            <div class="boxes">
+                <input class="x" id="x-1" type="checkbox" />
+                <input class="x" id="x-2" type="checkbox" />
+                <input class="x" id="x-3" type="checkbox" />
+                <input class="x" id="x-4" type="checkbox" />
+                <input class="x" id="x-5" type="checkbox" />
+                <input class="x" id="x-6" type="checkbox" />
+                <input class="x" id="x-7" type="checkbox" />
+                <input class="x" id="x-8" type="checkbox" />
+                <input class="x" id="x-9" type="checkbox" />
+                <input class="o" id="o-1" type="checkbox" />
+                <input class="o" id="o-2" type="checkbox" />
+                <input class="o" id="o-3" type="checkbox" />
+                <input class="o" id="o-4" type="checkbox" />
+                <input class="o" id="o-5" type="checkbox" />
+                <input class="o" id="o-6" type="checkbox" />
+                <input class="o" id="o-7" type="checkbox" />
+                <input class="o" id="o-8" type="checkbox" />
+                <input class="o" id="o-9" type="checkbox" />
+                <div class="controls">
+                    <div class="control -x">
+                        <div class="control-labels">
+                            <label class="x" for="x-1"></label>
+                            <label class="x" for="x-2"></label>
+                            <label class="x" for="x-3"></label>
+                            <label class="x" for="x-4"></label>
+                            <label class="x" for="x-5"></label>
+                            <label class="x" for="x-6"></label>
+                            <label class="x" for="x-7"></label>
+                            <label class="x" for="x-8"></label>
+                            <label class="x" for="x-9"></label>
+                        </div>
+                    </div>
+                    <div class="control -o">
+                        <div class="control-labels">
+                            <label class="o" for="o-1"></label>
+                            <label class="o" for="o-2"></label>
+                            <label class="o" for="o-3"></label>
+                            <label class="o" for="o-4"></label>
+                            <label class="o" for="o-5"></label>
+                            <label class="o" for="o-6"></label>
+                            <label class="o" for="o-7"></label>
+                            <label class="o" for="o-8"></label>
+                            <label class="o" for="o-9"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="done">
+                    <div class="lead">الفائز هو</div>
+                    <div class="winner"></div>
+                    <button type="reset">مرة اخرى</button>
+                </div>
+                <div class="tie">
+                    <span>انه تعادل </span><button type="reset">مرة اخرى</button>
+                </div>
+                <div class="turn">
+                    <div class="turn-x"></div>
+                    <div class="turn-o"></div>
+                </div>
+            </div>
+            <h1><span>X</span><span>O</span>-<span>Game</span></h1>
+        </form>
+    </div>
+    <footer>&copy; 2020 by Yahya</footer>
+</body>
+
+</html>
